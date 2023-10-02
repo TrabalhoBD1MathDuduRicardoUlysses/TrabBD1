@@ -6,10 +6,14 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Eduardo De Marchi Poltronieri : demarchi.dudu@gmail.com   
+
 Matheus Andrade : matheus.cbandrade@gmail.com 
+
 Breno Ricardo Ferreira Antunes: breno.rune@hotmail.com 
-Ulysses:uly6monte@dominio.com 
-...<br>
+
+Ulysses: uly6monte@dominio.com 
+
+<br>
 
 
 ### 2.MINI-MUNDO<br>
