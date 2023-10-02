@@ -5,8 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Eduardo De Marchi Poltronieri : demarchi.dudu@gmail.com   
+Matheus Andrade : matheus.cbandrade@gmail.com 
+Breno Ricardo Ferreira Antunes: breno.rune@hotmail.com 
+Ulysses:uly6monte@dominio.com 
 ...<br>
 
 
