@@ -1,0 +1,108 @@
+Aluguel de carro
+
+Entidades
+
+carros: Marca, modelo, categoria, ano  
+    
+Clientes: nome, cpf, telefone, endereço, CNH
+
+Pagamentos: CARTÃO, PIX, DINHEIRO, CALÇÃO
+
+Serviços: Manutenção(empresa), limpeza(empresa)
+
+
+
+
+
+
+Relacionamentos
+
+Contrato de aluguel:
+- Quando o cliente alugou, por quanto tempo, qual carro, qual foi a forma
+de pagamento, se pediu seguro
+
+- 
+
+
+
+
+**IPVA, chassi, Licenciamento**
+
+**Acrescimos: SEGURO, TAG DE PASSAGEM, LIMPEZA, MULTA**
+
+**Modalidade: Diária, mensal**
+
+
+
+
+
+Para criar um minimundo de banco de dados para um serviço de aluguel de carros, considerando as entidades e 
+relacionamentos fornecidos, temos as seguintes entidades:
+
+Entidades:
+
+Carros: Esta entidade possui informações sobre os carros disponíveis para aluguel, incluindo a marca, o modelo, 
+a categoria e o ano de fabricação.
+
+Clientes: Aqui, armazenamos os detalhes dos clientes que alugam os carros, como nome, CPF, telefone, endereço e 
+número da CNH (Carteira Nacional de Habilitação).
+
+Pagamentos: Essa entidade registra as diferentes formas de pagamento que os clientes podem usar, incluindo CARTÃO, 
+PIX, DINHEIRO e CALÇÃO.
+
+Serviços: Aqui, temos informações sobre serviços adicionais que podem ser oferecidos, como manutenção e limpeza, 
+incluindo o nome da empresa que realiza esses serviços.
+
+Relacionamentos:
+
+O principal relacionamento é o "Contrato de Aluguel", que vincula os clientes aos carros que eles alugam, 
+registrando detalhes como a forma de pagamento, a duração do aluguel, se foi solicitado seguro e se foram incluídos 
+serviços de manutenção e limpeza.
+
+Portanto, nosso banco de dados incluirá tabelas para cada uma dessas entidades, com campos correspondentes:
+
+Tabela Carros:
+
+ID (identificador único)
+Marca (texto)
+Modelo (texto)
+Categoria (texto)
+Ano (ano)
+Tabela Clientes:
+
+ID (identificador único)
+Nome (texto)
+CPF (texto)
+Telefone (texto)
+Endereço (texto)
+CNH (número)
+Tabela Pagamentos:
+
+ID (identificador único)
+Tipo de pagamento (texto)
+Tabela Serviços:
+
+ID (identificador único)
+Tipo de serviço (texto)
+Empresa (texto)
+Tabela Contrato de Aluguel:
+
+ID (identificador único)
+Cliente (chave estrangeira referenciando a tabela Clientes)
+Carro (chave estrangeira referenciando a tabela Carros)
+Forma de pagamento (chave estrangeira referenciando a tabela Pagamentos)
+Data de Início (data)
+Data de Término (data)
+Pedido de Seguro (booleano)
+Serviço de Manutenção (chave estrangeira referenciando a tabela Serviços, opcional)
+Serviço de Limpeza (chave estrangeira referenciando a tabela Serviços, opcional)
+
+
+Essas tabelas e relacionamentos permitem o registro completo dos contratos de aluguel de carros, capturando 
+informações sobre os clientes, carros, formas de pagamento e serviços adicionais, como manutenção e limpeza, 
+quando aplicáveis.
+
+
+
+
+

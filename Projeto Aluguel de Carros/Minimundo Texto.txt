@@ -1,0 +1,7 @@
+MINIMUNDO
+
+A DriveEazy é uma empresa inovadora no setor de aluguel de carros, focada em oferecer uma experiência de aluguel 
+descomplicada e eficiente para seus clientes. Com uma ampla gama de veículos em nosso portfólio, visamos atender 
+às diversas necessidades e preferências dos nossos clientes. O sistema apresenta uma seleção variada de marcas, modelos e categorias de carros, todos devidamente registrados, licenciados e IPVA em dia. O sistema precisa registrar todos os dados necessários dos clientes e informações de pagamentos. A empresa ainda registra o contrato de aluguel, relacionando as informações pertinentes ao aluguel. Internamente a empresa poderá contratar outros serviços parceiros, como manutenção, limpeza. O cliente poderá definir qual modalidade de contrato ele estará alocado, seja ela, diária ou mensal, além da opção de serviços adicionais, como seguro, tag de passagem e até mesmo limpeza.
+
+
