@@ -33,6 +33,42 @@ O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalha
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+### ANALISAR ESSA RESPOSTA
+a) O sistema proposto poderá fornecer quais tipos de relatórios e informações?
+
+Com base no minimundo, o sistema pode fornecer as seguintes informações e relatórios:
+
+Informações de Veículos: Relatório detalhado sobre cada veículo disponível para aluguel, incluindo marca, modelo, categoria, status (disponível, alugado, em manutenção, etc.), registro, licenciamento e status do IPVA.
+
+Informações de Clientes: Dados completos dos clientes, incluindo informações pessoais, histórico de alugueis, métodos de pagamento, preferências, entre outros.
+
+Contratos de Aluguel: Detalhes de cada contrato, incluindo veículo alugado, duração do contrato (diária, mensal), serviços adicionais contratados (seguro, tag de passagem, limpeza), datas de início e término, e custo total.
+
+Serviços Parceiros: Informações sobre serviços de manutenção, limpeza e quaisquer outros que a empresa contrate. Inclui detalhes do serviço, custo, parceiro que oferece o serviço e data.
+
+Modalidades de Contrato: Estatísticas sobre as modalidades de contrato mais populares, incluindo quantidade de contratos diários vs. mensais.
+
+Serviços Adicionais Contratados: Um resumo dos serviços adicionais mais comuns que os clientes optam, como seguro, tag de passagem e limpeza.
+
+Receitas e Despesas: Relatórios financeiros que mostram as receitas obtidas com alugueis e despesas relacionadas a serviços parceiros e manutenção de veículos.
+
+Taxa de Ocupação: Estatísticas sobre a taxa de ocupação dos veículos, mostrando quais são mais alugados e quais ficam mais tempo disponíveis.
+
+b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+
+Relatório de Performance de Aluguel: Mostra a taxa de ocupação de cada veículo, os mais e menos alugados, e as receitas geradas por cada um.
+
+Relatório de Clientes Fidelidade: Detalhes dos clientes que mais alugam veículos, sua frequência, preferências e gasto total.
+
+Relatório Financeiro: Um resumo das receitas e despesas, detalhando as fontes de receita (alugueis, serviços adicionais) e despesas (manutenção, limpeza, serviços parceiros).
+
+Relatório de Serviços Adicionais: Um panorama dos serviços adicionais mais contratados, as receitas geradas por eles e sua popularidade ao longo do tempo.
+
+Relatório de Manutenção e Serviços: Detalhes sobre os veículos que passaram por manutenção, a frequência de serviços, os parceiros que realizaram os serviços e os custos associados.
+
+######## FINAL DA RESPOSTA PRA SER ANALISADA
+
+
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
