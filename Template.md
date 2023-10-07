@@ -33,7 +33,8 @@ O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalha
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-### ANALISAR ESSA RESPOSTA
+    
+ANALISAR ESSA RESPOSTA
 a) O sistema proposto poderá fornecer quais tipos de relatórios e informações?
 
 Com base no minimundo, o sistema pode fornecer as seguintes informações e relatórios:
@@ -66,7 +67,7 @@ Relatório de Serviços Adicionais: Um panorama dos serviços adicionais mais co
 
 Relatório de Manutenção e Serviços: Detalhes sobre os veículos que passaram por manutenção, a frequência de serviços, os parceiros que realizaram os serviços e os custos associados.
 
-######## FINAL DA RESPOSTA PRA SER ANALISADA
+FINAL DA RESPOSTA PRA SER ANALISADA
 
 
     
