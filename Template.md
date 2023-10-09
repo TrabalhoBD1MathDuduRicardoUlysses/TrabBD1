@@ -21,14 +21,6 @@ Ulysses Monte: uly6monte@dominio.com
 ## A DriveEazy é uma empresa inovadora no setor de aluguel de carros, focada em oferecer uma experiência de aluguel descomplicada e eficiente para seus clientes. Com uma ampla gama de veículos em nosso portfólio, visamos atender às diversas necessidades e preferências dos nossos clientes. O sistema apresenta uma seleção variada de marcas, modelos e categorias de carros, todos devidamente registrados, licenciados e IPVA em dia. O sistema precisa registrar todos os dados necessários dos clientes e informações de pagamentos. A empresa ainda registra o contrato de aluguel, relacionando as informações pertinentes ao aluguel. Internamente a empresa poderá contratar outros serviços parceiros, como manutenção, limpeza. O cliente poderá definir qual modalidade de contrato ele estará alocado, seja ela, diária ou mensal, além da opção de serviços adicionais, como seguro, tag de passagem e até mesmo limpeza.
 
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
-Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida. 
-
-O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes.
- 
 ### 3.PERGUNTAS A SEREM RESPONDIDAS<br>
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
@@ -38,46 +30,22 @@ ANALISAR ESSA RESPOSTA
 a) O sistema proposto poderá fornecer quais tipos de relatórios e informações?
 
 Com base no minimundo, o sistema pode fornecer as seguintes informações e relatórios:
-
 Informações de Veículos: Relatório detalhado sobre cada veículo disponível para aluguel, incluindo marca, modelo, categoria, status (disponível, alugado, em manutenção, etc.), registro, licenciamento e status do IPVA.
-
 Informações de Clientes: Dados completos dos clientes, incluindo informações pessoais, histórico de alugueis, métodos de pagamento, preferências, entre outros.
-
 Contratos de Aluguel: Detalhes de cada contrato, incluindo veículo alugado, duração do contrato (diária, mensal), serviços adicionais contratados (seguro, tag de passagem, limpeza), datas de início e término, e custo total.
-
 Serviços Parceiros: Informações sobre serviços de manutenção, limpeza e quaisquer outros que a empresa contrate. Inclui detalhes do serviço, custo, parceiro que oferece o serviço e data.
-
 Modalidades de Contrato: Estatísticas sobre as modalidades de contrato mais populares, incluindo quantidade de contratos diários vs. mensais.
-
 Serviços Adicionais Contratados: Um resumo dos serviços adicionais mais comuns que os clientes optam, como seguro, tag de passagem e limpeza.
-
 Receitas e Despesas: Relatórios financeiros que mostram as receitas obtidas com alugueis e despesas relacionadas a serviços parceiros e manutenção de veículos.
-
 Taxa de Ocupação: Estatísticas sobre a taxa de ocupação dos veículos, mostrando quais são mais alugados e quais ficam mais tempo disponíveis.
 
 b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
 
 Relatório de Performance de Aluguel: Mostra a taxa de ocupação de cada veículo, os mais e menos alugados, e as receitas geradas por cada um.
-
 Relatório de Clientes Fidelidade: Detalhes dos clientes que mais alugam veículos, sua frequência, preferências e gasto total.
-
 Relatório Financeiro: Um resumo das receitas e despesas, detalhando as fontes de receita (alugueis, serviços adicionais) e despesas (manutenção, limpeza, serviços parceiros).
-
 Relatório de Serviços Adicionais: Um panorama dos serviços adicionais mais contratados, as receitas geradas por eles e sua popularidade ao longo do tempo.
-
 Relatório de Manutenção e Serviços: Detalhes sobre os veículos que passaram por manutenção, a frequência de serviços, os parceiros que realizaram os serviços e os custos associados.
-
-FINAL DA RESPOSTA PRA SER ANALISADA
-
-
-    
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-* Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-* Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-* Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
-* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
 
     
 ### 5.MODELO CONCEITUAL<br>
