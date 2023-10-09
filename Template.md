@@ -59,11 +59,14 @@ Relatório de Manutenção e Serviços: Detalhes sobre os veículos que passaram
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+![image](https://github.com/TrabalhoBD1MathDuduRicardoUlysses/TrabBD1/assets/146727298/7da29af2-d582-4921-af2f-e45a214c7450)
+
+
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Arthur Cremasco, Bruno Mian, Thalison
+    [Grupo02]: Gustavo Laube, Henrique Bravim, Cassiano
 
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
