@@ -3,7 +3,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
-### 1. COMPONENTES<br>
+### 1. COMPONENTES
 Integrantes do grupo<br>
 Eduardo De Marchi Poltronieri : demarchi.dudu@gmail.com   
 
@@ -13,15 +13,12 @@ Breno Ricardo Ferreira Antunes: breno.rune@hotmail.com
 
 Ulysses Monte: uly6monte@dominio.com 
 
-<br>
-
-
 ### 2.MINI-MUNDO<br>
 
 ## A DriveEazy é uma empresa inovadora no setor de aluguel de carros, focada em oferecer uma experiência de aluguel descomplicada e eficiente para seus clientes. Com uma ampla gama de veículos em nosso portfólio, visamos atender às diversas necessidades e preferências dos nossos clientes. O sistema apresenta uma seleção variada de marcas, modelos e categorias de carros, todos devidamente registrados, licenciados e IPVA em dia. O sistema precisa registrar todos os dados necessários dos clientes e informações de pagamentos. A empresa ainda registra o contrato de aluguel, relacionando as informações pertinentes ao aluguel. Internamente a empresa poderá contratar outros serviços parceiros, como manutenção, limpeza. O cliente poderá definir qual modalidade de contrato ele estará alocado, seja ela, diária ou mensal, além da opção de serviços adicionais, como seguro, tag de passagem e até mesmo limpeza.
 
 
-### 3.PERGUNTAS A SEREM RESPONDIDAS<br>
+### 3.PERGUNTAS A SEREM RESPONDIDAS
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
@@ -48,7 +45,7 @@ Relatório de Serviços Adicionais: Um panorama dos serviços adicionais mais co
 Relatório de Manutenção e Serviços: Detalhes sobre os veículos que passaram por manutenção, a frequência de serviços, os parceiros que realizaram os serviços e os custos associados.
 
     
-### 5.MODELO CONCEITUAL<br>
+### 5.MODELO CONCEITUAL
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
         * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
