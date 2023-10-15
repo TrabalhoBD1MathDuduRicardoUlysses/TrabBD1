@@ -28,20 +28,92 @@ Internamente, valorizamos a manutenção da qualidade dos nossos veículos. Por 
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informações? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-ANALISAR ESSA RESPOSTA
-a) O sistema proposto poderá fornecer quais tipos de relatórios e informações?
 
-Com base no minimundo, o sistema pode fornecer as seguintes informações e relatórios:
-Informações de Veículos: Relatório detalhado sobre cada veículo disponível para aluguel, incluindo marca, modelo, categoria, status (disponível, alugado, em manutenção, etc.), registro, licenciamento e status do IPVA.
-Informações de Clientes: Dados completos dos clientes, incluindo informações pessoais, histórico de alugueis, métodos de pagamento, preferências, entre outros.
-Contratos de Aluguel: Detalhes de cada contrato, incluindo veículo alugado, duração do contrato (diária, mensal), serviços adicionais contratados (seguro, tag de passagem, limpeza), datas de início e término, e custo total.
-Serviços Parceiros: Informações sobre serviços de manutenção, limpeza e quaisquer outros que a empresa contrate. Inclui detalhes do serviço, custo, parceiro que oferece o serviço e data.
-Modalidades de Contrato: Estatísticas sobre as modalidades de contrato mais populares, incluindo quantidade de contratos diários vs. mensais.
-Serviços Adicionais Contratados: Um resumo dos serviços adicionais mais comuns que os clientes optam, como seguro, tag de passagem e limpeza.
-Receitas e Despesas: Relatórios financeiros que mostram as receitas obtidas com alugueis e despesas relacionadas a serviços parceiros e manutenção de veículos.
-Taxa de Ocupação: Estatísticas sobre a taxa de ocupação dos veículos, mostrando quais são mais alugados e quais ficam mais tempo disponíveis.
+### [a) O sistema proposto poderá fornecer quais tipos de relatórios e informações?](#relatorios-e-informacoes)
 
-b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+
+**Relatórios e Informações que o Sistema Pode Fornecer:**
+
+---
+
+**1. Informações de Veículos**
+- **Objetivo**: Avaliar e monitorar a frota disponível.
+- **Conteúdo**:
+   - Marca, modelo e categoria.
+   - Status atual (disponível, alugado, em manutenção, etc.).
+   - Informações sobre registro, licenciamento e status do IPVA.
+
+---
+
+**2. Informações de Clientes**
+- **Objetivo**: Conhecer melhor os clientes e suas preferências.
+- **Conteúdo**:
+   - Dados pessoais.
+   - Histórico de aluguéis.
+   - Métodos de pagamento utilizados.
+   - Preferências e feedbacks.
+
+---
+
+**3. Contratos de Aluguel**
+- **Objetivo**: Monitorar e gerir todos os contratos ativos e passados.
+- **Conteúdo**:
+   - Veículo alugado.
+   - Duração e modalidade do contrato (diária, mensal).
+   - Serviços adicionais contratados.
+   - Datas de início e término.
+   - Custo total do contrato.
+
+---
+
+**4. Serviços Parceiros**
+- **Objetivo**: Gerenciar e avaliar serviços terceirizados.
+- **Conteúdo**:
+   - Tipo de serviço (manutenção, limpeza, etc.).
+   - Custo associado.
+   - Parceiro responsável.
+   - Data da realização do serviço.
+
+---
+
+**5. Modalidades de Contrato**
+- **Objetivo**: Entender as preferências dos clientes em relação à duração dos contratos.
+- **Conteúdo**:
+   - Quantidade de contratos diários.
+   - Quantidade de contratos mensais.
+   - Comparação e tendências.
+
+---
+
+**6. Serviços Adicionais Contratados**
+- **Objetivo**: Analisar os serviços adicionais mais requisitados e suas receitas.
+- **Conteúdo**:
+   - Resumo dos serviços mais populares (seguro, tag de passagem, limpeza).
+   - Receitas geradas por cada serviço.
+
+---
+
+**7. Receitas e Despesas**
+- **Objetivo**: Obter uma visão clara da saúde financeira da empresa.
+- **Conteúdo**:
+   - Receitas obtidas de aluguéis.
+   - Despesas com serviços terceirizados e manutenção.
+
+---
+
+**8. Taxa de Ocupação**
+- **Objetivo**: Monitorar a eficiência da frota.
+- **Conteúdo**:
+   - Taxa de ocupação por veículo.
+   - Veículos mais populares.
+   - Tempo médio em que cada veículo fica disponível.
+
+--- 
+
+Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre todos os aspectos essenciais da operação de aluguel de carros da DriveEazy, permitindo uma gestão eficiente e orientada por dados.
+
+### [b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!](#relatorios-de-performance)
+
 ---
 
 **1. Relatório de Performance de Aluguel**
@@ -90,6 +162,7 @@ b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por m
    - Custos associados a cada serviço.
 
 ---
+
 
     
 ### 5.MODELO CONCEITUAL
