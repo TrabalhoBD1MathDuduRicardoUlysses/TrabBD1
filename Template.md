@@ -14,14 +14,13 @@ Breno Ricardo Ferreira Antunes: breno.rune@hotmail.com
 Ulysses Monte: uly6monte@dominio.com 
 
 ### 2.MINI-MUNDO<br>
-
-## A DriveEazy está reinventando a experiência de aluguel de carros, tornando-a simples e eficiente. Nosso diversificado portfólio de veículos abrange uma ampla variedade de marcas, modelos e categorias, garantindo que cada cliente encontre o carro perfeito para suas necessidades. Todos os nossos veículos estão devidamente registrados, licenciados e com o IPVA atualizado.
+A DriveEazy está reinventando a experiência de aluguel de carros, tornando-a simples e eficiente. Nosso diversificado portfólio de veículos abrange uma ampla variedade de marcas, modelos e categorias, garantindo que cada cliente encontre o carro perfeito para suas necessidades. Todos os nossos veículos estão devidamente registrados, licenciados e com o IPVA atualizado.
 
 Nossa plataforma digital permite o registro completo de dados dos clientes e detalhes de pagamento, proporcionando transações transparentes e seguras. Cada contrato de aluguel é meticulosamente documentado, garantindo que todas as informações relacionadas à locação sejam facilmente acessíveis.
 
 Além do aluguel básico, os clientes têm a liberdade de escolher entre contratos diários ou mensais, bem como a opção de adicionar serviços complementares, como seguro, tag de passagem e serviços de limpeza.
 
-Internamente, valorizamos a manutenção da qualidade dos nossos veículos. Por isso, mantemos parcerias estratégicas com prestadores de serviços de manutenção e limpeza, garantindo que cada carro esteja sempre nas melhores condições..
+Internamente, valorizamos a manutenção da qualidade dos nossos veículos. Por isso, mantemos parcerias estratégicas com prestadores de serviços de manutenção e limpeza, garantindo que cada carro esteja sempre nas melhores condições.
 
 
 ### 3.PERGUNTAS A SEREM RESPONDIDAS
