@@ -42,12 +42,54 @@ Receitas e Despesas: Relatórios financeiros que mostram as receitas obtidas com
 Taxa de Ocupação: Estatísticas sobre a taxa de ocupação dos veículos, mostrando quais são mais alugados e quais ficam mais tempo disponíveis.
 
 b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+---
 
-Relatório de Performance de Aluguel: Mostra a taxa de ocupação de cada veículo, os mais e menos alugados, e as receitas geradas por cada um.
-Relatório de Clientes Fidelidade: Detalhes dos clientes que mais alugam veículos, sua frequência, preferências e gasto total.
-Relatório Financeiro: Um resumo das receitas e despesas, detalhando as fontes de receita (alugueis, serviços adicionais) e despesas (manutenção, limpeza, serviços parceiros).
-Relatório de Serviços Adicionais: Um panorama dos serviços adicionais mais contratados, as receitas geradas por eles e sua popularidade ao longo do tempo.
-Relatório de Manutenção e Serviços: Detalhes sobre os veículos que passaram por manutenção, a frequência de serviços, os parceiros que realizaram os serviços e os custos associados.
+**1. Relatório de Performance de Aluguel**
+- **Objetivo**: Avaliar a eficiência da frota.
+- **Conteúdo**: 
+   - Taxa de ocupação de cada veículo.
+   - Veículos mais e menos alugados.
+   - Receitas geradas por cada veículo.
+
+---
+
+**2. Relatório de Clientes Fidelidade**
+- **Objetivo**: Identificar e recompensar os clientes mais leais.
+- **Conteúdo**:
+   - Detalhes dos clientes que mais alugam.
+   - Frequência de aluguel.
+   - Preferências de veículo.
+   - Gasto total acumulado.
+
+---
+
+**3. Relatório Financeiro**
+- **Objetivo**: Ter uma visão clara da saúde financeira.
+- **Conteúdo**:
+   - Resumo das receitas e despesas.
+   - Detalhamento das fontes de receita (aluguéis, serviços adicionais).
+   - Despesas discriminadas (manutenção, limpeza, serviços parceiros).
+
+---
+
+**4. Relatório de Serviços Adicionais**
+- **Objetivo**: Entender a popularidade e rentabilidade dos serviços adicionais.
+- **Conteúdo**:
+   - Panorama dos serviços adicionais mais contratados.
+   - Receitas geradas por cada serviço.
+   - Evolução da popularidade dos serviços ao longo do tempo.
+
+---
+
+**5. Relatório de Manutenção e Serviços**
+- **Objetivo**: Monitorar a condição e manutenção da frota.
+- **Conteúdo**:
+   - Detalhes dos veículos que passaram por manutenção.
+   - Frequência de serviços realizados.
+   - Parceiros contratados para os serviços.
+   - Custos associados a cada serviço.
+
+---
 
     
 ### 5.MODELO CONCEITUAL
