@@ -187,62 +187,56 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 #### 5.2 Descrição dos dados
 
 
-Entidades:
-	
-## 5.2 Descrição dos dados
+Entidades:	
+---
 
-### Entidades
+#### 🚗 **CARRO**
+- **Descrição**: Tabela que armazena as informações dos veículos disponíveis para aluguel.
+- **Atributos**:
+  - **Marca**: campo de texto que armazena a marca do carro.
+  - **Modelo**: campo de texto que armazena o modelo específico do carro.
+  - **Categoria**: campo de texto que indica a categoria do veículo (ex.: SUV, compacto, sedan).
+  - **Ano**: campo numérico que indica o ano de fabricação do carro.
 
-	---
-	
-	#### 🚗 **CARRO**
-	- **Descrição**: Tabela que armazena as informações dos veículos disponíveis para aluguel.
-	- **Atributos**:
-	  - **Marca**: campo de texto que armazena a marca do carro.
-	  - **Modelo**: campo de texto que armazena o modelo específico do carro.
-	  - **Categoria**: campo de texto que indica a categoria do veículo (ex.: SUV, compacto, sedan).
-	  - **Ano**: campo numérico que indica o ano de fabricação do carro.
-	
-	---
-	
-	#### 👤 **CLIENTE**
-	- **Descrição**: Tabela que armazena as informações dos clientes.
-	- **Atributos**:
-	  - **Nome**: campo de texto que armazena o nome completo do cliente.
-	  - **CPF**: campo que armazena o número de Cadastro de Pessoa Física do cliente.
-	  - **Telefone**: campo numérico que armazena o número de telefone do cliente.
-	  - **Endereço**: campo de texto que armazena o endereço completo do cliente.
-	  - **CNH**: campo numérico que armazena o número da Carteira Nacional de Habilitação do cliente.
-	
-	---
-	
-	#### 💳 **PAGAMENTO**
-	- **Descrição**: Tabela que armazena as formas de pagamento disponíveis.
-	- **Atributos**:
-	  - **Tipo de Pagamento**: campo de texto que especifica a forma de pagamento (ex.: CARTÃO, PIX, DINHEIRO, CALÇÃO).
-	
-	---
-	
-	#### 🛠️ **SERVIÇO**
-	- **Descrição**: Tabela que armazena informações sobre os serviços adicionais oferecidos.
-	- **Atributos**:
-	  - **Tipo de Serviço**: campo de texto que indica o tipo de serviço (ex.: Manutenção, Limpeza).
-	  - **Empresa**: campo de texto que armazena o nome da empresa parceira que realiza o serviço.
-	
-	---
-	
-	#### 📜 **CONTRATO DE ALUGUEL**
-	- **Descrição**: Tabela que armazena os contratos estabelecidos entre clientes e carros alugados.
-	- **Atributos**:
-	  - **Cliente**: campo que relaciona o contrato a um cliente específico.
-	  - **Carro**: campo que relaciona o contrato a um carro específico.
-	  - **Forma de Pagamento**: campo que especifica a forma de pagamento escolhida para o contrato.
-	  - **Data de Início**: campo de data que indica quando o aluguel começa.
-	  - **Data de Término**: campo de data que indica quando o aluguel termina.
-	  - **Pedido de Seguro**: campo booleano (sim/não) que indica se o cliente solicitou seguro para o aluguel.
-	  - **Serviço de Manutenção**: campo opcional que indica se um serviço de manutenção foi solicitado.
-	  - **Serviço de Limpeza**: campo opcional que indica se um serviço de limpeza foi solicitado.
+---
 
+#### 👤 **CLIENTE**
+- **Descrição**: Tabela que armazena as informações dos clientes.
+- **Atributos**:
+  - **Nome**: campo de texto que armazena o nome completo do cliente.
+  - **CPF**: campo que armazena o número de Cadastro de Pessoa Física do cliente.
+  - **Telefone**: campo numérico que armazena o número de telefone do cliente.
+  - **Endereço**: campo de texto que armazena o endereço completo do cliente.
+  - **CNH**: campo numérico que armazena o número da Carteira Nacional de Habilitação do cliente.
+
+---
+
+#### 💳 **PAGAMENTO**
+- **Descrição**: Tabela que armazena as formas de pagamento disponíveis.
+- **Atributos**:
+  - **Tipo de Pagamento**: campo de texto que especifica a forma de pagamento (ex.: CARTÃO, PIX, DINHEIRO, CALÇÃO).
+
+---
+
+#### 🛠️ **SERVIÇO**
+- **Descrição**: Tabela que armazena informações sobre os serviços adicionais oferecidos.
+- **Atributos**:
+  - **Tipo de Serviço**: campo de texto que indica o tipo de serviço (ex.: Manutenção, Limpeza).
+  - **Empresa**: campo de texto que armazena o nome da empresa parceira que realiza o serviço.
+
+---
+
+#### 📜 **CONTRATO DE ALUGUEL**
+- **Descrição**: Tabela que armazena os contratos estabelecidos entre clientes e carros alugados.
+- **Atributos**:
+  - **Cliente**: campo que relaciona o contrato a um cliente específico.
+  - **Carro**: campo que relaciona o contrato a um carro específico.
+  - **Forma de Pagamento**: campo que especifica a forma de pagamento escolhida para o contrato.
+  - **Data de Início**: campo de data que indica quando o aluguel começa.
+  - **Data de Término**: campo de data que indica quando o aluguel termina.
+  - **Pedido de Seguro**: campo booleano (sim/não) que indica se o cliente solicitou seguro para o aluguel.
+  - **Serviço de Manutenção**: campo opcional que indica se um serviço de manutenção foi solicitado.
+  - **Serviço de Limpeza**: campo opcional que indica se um serviço de limpeza foi solicitado.
 
 
 
