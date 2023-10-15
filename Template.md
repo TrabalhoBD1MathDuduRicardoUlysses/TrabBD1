@@ -175,7 +175,6 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
 ![image](https://github.com/TrabalhoBD1MathDuduRicardoUlysses/TrabBD1/assets/146727298/7da29af2-d582-4921-af2f-e45a214c7450)
 
 
@@ -185,12 +184,26 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
     [Grupo01]: Arthur Cremasco, Bruno Mian, Thalison
     [Grupo02]: Gustavo Laube, Henrique Bravim, Cassiano
 
-#### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
+#### 5.2 Descrição dos dados
+
+
+Entidades:
+
+	CARROS: Esta entidade possui informações sobre os carros disponíveis para aluguel, incluindo a marca, o modelo,
+ 	a categoria e o ano de fabricação.<br>
+	
+	CLIENTES: Aqui, armazenamos os detalhes dos clientes que alugam os carros, como nome, CPF, telefone, endereço e 
+	número da CNH (Carteira Nacional de Habilitação).<br>
+	
+	PAGAMENTOS: Essa entidade registra as diferentes formas de pagamento que os clientes podem usar, incluindo CARTÃO, 
+	PIX, DINHEIRO e CALÇÃO.<br>
+	
+	SERVIÇOS: Aqui, temos informações sobre serviços adicionais que podem ser oferecidos, como manutenção e limpeza, 
+	incluindo o nome da empresa que realiza esses serviços.<br>
+ 
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    
+
 
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
 
