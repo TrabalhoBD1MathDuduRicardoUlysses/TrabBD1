@@ -272,16 +272,50 @@ Entidades:
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Usa template da disciplina disponibilizado no Colab.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-
+	df = pd.read_sql_query("""SELECT * FROM Modelo""", conn)
+	print(df)
+	df2 = pd.read_sql_query("""SELECT * FROM Marca""", conn)
+	print(df2)
+	df3 = pd.read_sql_query("""SELECT * FROM Carro""", conn)
+	print(df3)
+	df4 = pd.read_sql_query("""SELECT * FROM Categoria""", conn)
+	print(df4)
+	df5 = pd.read_sql_query("""SELECT * FROM Tipo_pagamento""", conn)
+	print(df5)
+	df6 = pd.read_sql_query("""SELECT * FROM Aluguel""", conn)
+	print(df6)
+	df7 = pd.read_sql_query("""SELECT * FROM Cliente""", conn)
+	print(df7)
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+resultado = pd.read_sql_query("""SELECT * FROM aluguel WHERE to_char(data_aluguel_inicial, 'YYYY-MM') LIKE '2022-01'""", conn)
+resultado2 = pd.read_sql_query("""SELECT * FROM aluguel WHERE valor_final >= 500""", conn)
+resultado3 = pd.read_sql_query("""SELECT * FROM aluguel WHERE valor_final >= 500 AND to_char(data_aluguel_entrega, 'YYYY-MM') LIKE '2022-01'""", conn)
+resultado4 = pd.read_sql_query("""SELECT * FROM aluguel WHERE fk_pagamento = 7""", conn)
+
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+    	res1 = pd.read_sql_query("""SELECT * FROM aluguel WHERE id_aluguel >= 3 AND to_char(data_aluguel_entrega, 'YYYY-MM') LIKE '2022-05'""", conn)
+	res2 = pd.read_sql_query("""SELECT * FROM aluguel WHERE id_aluguel >= 5 AND fk_pagamento >= 3""", conn)
+	res3 = pd.read_sql_query("""SELECT * FROM aluguel WHERE id_aluguel >= 5 AND fk_pagamento >= 5""", conn)
+	res4 = pd.read_sql_query("""SELECT * FROM aluguel WHERE to_char(data_aluguel_entrega, 'YYYY-MM') LIKE '2022-05' AND to_char(data_aluguel_inicial, 'YYYY-MM') LIKE '2022-05' """, conn)
+	res5 = pd.read_sql_query("""SELECT * FROM aluguel WHERE to_char(data_aluguel_entrega, 'YYYY-MM') LIKE '2022-06' AND to_char(data_aluguel_inicial, 'YYYY-MM') LIKE '2022-06' """, conn)
+
     b) Criar no mínimo 3 consultas com operadores aritméticos 
+    	re1 = pd.read_sql_query("""SELECT valor_final, (valor_final + 500) AS soma FROM aluguel""", conn)
+	re2 = pd.read_sql_query("""SELECT valor_final, (valor_final - 50) AS subtração FROM aluguel""", conn)
+	re3 = pd.read_sql_query("""SELECT valor, (valor + 150) AS soma FROM categoria""", conn)
+
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    	re_alter1 = pd.read_sql_query("""ALTER TABLE aluguel RENAME COLUMN valor_final TO valor_total""", conn)
+	re_alter2 = pd.read_sql_query("""ALTER TABLE Marca RENAME TO Montadora""", conn)
+	re_alter3 = pd.read_sql_query("""ALTER TABLE Cliente RENAME TO Cliente_infos""", conn)
+
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
+    	resultado4 = pd.read_sql_query("""SELECT * FROM TIPO_PAGAMENTO WHERE nome LIKE '%Cartão%'""", conn)
+
     b) Criar uma consulta para cada tipo de função data apresentada.
 
 ># Marco de Entrega 02: Do item 6. até o item 9.1 (5 PTS) <br>
