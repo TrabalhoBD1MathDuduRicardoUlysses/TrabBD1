@@ -287,10 +287,10 @@ Entidades:
 	df7 = pd.read_sql_query("""SELECT * FROM Cliente""", conn)
 	print(df7)
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-resultado = pd.read_sql_query("""SELECT * FROM aluguel WHERE to_char(data_aluguel_inicial, 'YYYY-MM') LIKE '2022-01'""", conn)
-resultado2 = pd.read_sql_query("""SELECT * FROM aluguel WHERE valor_final >= 500""", conn)
-resultado3 = pd.read_sql_query("""SELECT * FROM aluguel WHERE valor_final >= 500 AND to_char(data_aluguel_entrega, 'YYYY-MM') LIKE '2022-01'""", conn)
-resultado4 = pd.read_sql_query("""SELECT * FROM aluguel WHERE fk_pagamento = 7""", conn)
+	resultado = pd.read_sql_query("""SELECT * FROM aluguel WHERE to_char(data_aluguel_inicial, 'YYYY-MM') LIKE '2022-01'""", conn)
+	resultado2 = pd.read_sql_query("""SELECT * FROM aluguel WHERE valor_final >= 500""", conn)
+	resultado3 = pd.read_sql_query("""SELECT * FROM aluguel WHERE valor_final >= 500 AND to_char(data_aluguel_entrega, 'YYYY-MM') LIKE '2022-01'""", conn)
+	resultado4 = pd.read_sql_query("""SELECT * FROM aluguel WHERE fk_pagamento = 7""", conn)
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
