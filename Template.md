@@ -218,15 +218,11 @@ Entidades:
 
 ---
 
-#### 🛠️ **SERVIÇO**
-- **Descrição**: Tabela que armazena informações sobre os serviços adicionais oferecidos.
-- **Atributos**:
-  - **Tipo de Serviço**: campo de texto que indica o tipo de serviço (ex.: Manutenção, Limpeza).
-  - **Empresa**: campo de texto que armazena o nome da empresa parceira que realiza o serviço.
+
 
 ---
 
-#### 📜 **CONTRATO DE ALUGUEL**
+#### 📜 **ALUGUEL**
 - **Descrição**: Tabela que armazena os contratos estabelecidos entre clientes e carros alugados.
 - **Atributos**:
   - **Cliente**: campo que relaciona o contrato a um cliente específico.
@@ -241,12 +237,26 @@ Entidades:
 
 
 
+#### ✨🛠️ **MARCA**
+- **Atributos**:
+  - **id_marca**: Id da Marca
+  - **nome**: campo de texto que armazena o nome da marca.
 
 
+#### ✨🛠️ **MODELO**
+- **Descrição**: Tabela que armazena informações sobre os modelos.
+- **Atributos**:
+  - **id_modelo**: Id do modelo.
+  - **nome_modelo**: campo de texto que armazena o nome do modelo.
+  - **cod_marca**: código da marca.
+  - **cod cat**: código da categoria.
 
 
-
-
+#### ✨🛠️ CATEGORIA****
+- **Atributos**:
+  - **id_categoria**: Id da categoria.
+  - **nome**: campo de texto que armazena o nome da categoria.
+  - **valor**: valor da categoria.
 
 
 
