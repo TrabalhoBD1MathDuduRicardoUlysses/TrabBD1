@@ -175,7 +175,8 @@ As principais entidades do sistema são "CARRO", "CLIENTE" e "CONTRATO DE ALUGUE
 Primeiramente, o principal fluxo de informações é da entidade "CLIENTE" com o "CONTRATO DE ALUGUEL", nesse fluxo, é registrado  uma das principais caracteristicas necessárias para o aluguel de um veículo, que são os dados do contratante do serviço. Já a relação da tabela "CARRO" com o "CONTRATO DE ALUGUEL", registra em si o serviço/produto que está sendo contratado, bem como suas características, ou seja, a forma de contrato, tempo, entre outros fatores. A relação da entidade "PAGAMENTO" com o "CONTRATO DE ALUGUEL", servirá para armazenar dados sensíveis, como informações de pagamento dos cliente. Por fim, ainda há a relação da entidade "SERVIÇO" com o "CONTRATO DE ALUGUEL", que busca armazenar informações, junto ao serviço contratado, relacionada a serviços parceiros, como manutenção e limpeza dos carros.
 
 
-![image](https://github.com/TrabalhoBD1MathDuduRicardoUlysses/TrabBD1/assets/146727298/df597043-eed2-470e-8a32-b9a70e550bce)
+![Captura de tela 2023-10-27 084638](https://github.com/TrabalhoBD1MathDuduRicardoUlysses/TrabBD1/assets/146727298/c8b097f8-437f-4de9-9c83-0ddca058988e)
+
 
     
     
