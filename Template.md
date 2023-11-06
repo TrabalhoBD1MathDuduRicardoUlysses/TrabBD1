@@ -263,22 +263,136 @@ Entidades:
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+        ![image](https://github.com/TrabalhoBD1MathDuduRicardoUlysses/TrabBD1/assets/146727298/9f637fb0-de85-4205-b4d9-8f5775f1c441)
+
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
+      CREATE TABLE MARCA ( 
+	ID_MARCA SERIAL PRIMARY KEY,
+	NOME VARCHAR(50) NOT NULL);
+	
+	CREATE TABLE CATEGORIA ( 
+	ID_CATEGORIA SERIAL PRIMARY KEY,
+	NOME VARCHAR(50) NOT NULL,
+	VALOR FLOAT NOT NULL);
+	
+	CREATE TABLE TIPO_PAGAMENTO(
+	ID_TIPO_PAGAMENTO SERIAL PRIMARY KEY,
+	NOME VARCHAR(50) NOT NULL)
+	
+	CREATE TABLE MODELO(
+	ID_MODELO SERIAL PRIMARY KEY,
+	NOME_MODELO VARCHAR(50) NOT NULL,
+	DESCRICAO VARCHAR(200),
+	FK_ID_MARCA INTEGER REFERENCES MARCA(ID_MARCA),
+	FK_ID_CATEGORIA INTEGER REFERENCES CATEGORIA(ID_CATEGORIA))
+	
+	CREATE TABLE CLIENTE (
+	ID_CLIENTE SERIAL PRIMARY KEY,
+	NOME VARCHAR(100) NOT NULL,
+	CPF VARCHAR(11) NOT NULL,
+	TELEFONE VARCHAR(15) NOT NULL,
+	ENDERECO VARCHAR(200) NOT NULL,
+	CNH VARCHAR(20) NOT NULL)
+	
+	CREATE TABLE CARRO(
+	ID_CARRO SERIAL PRIMARY KEY,
+	FK_ID_MODELO INTEGER REFERENCES MODELO(ID_MODELO),
+	ANO INTEGER NOT NULL,
+	PLACA VARCHAR(8) NOT NULL)
+	
+	CREATE TABLE ALUGUEL(
+	ID_ALUGUEL SERIAL PRIMARY KEY,
+	FK_ID_CARRO INTEGER REFERENCES CARRO(ID_CARRO),
+	FK_ID_CLIENTE INTEGER REFERENCES CLIENTE(ID_CLIENTE),
+	FK_PAGAMENTO INTEGER REFERENCES TIPO_PAGAMENTO(ID_TIPO_PAGAMENTO),
+	DATA_ALUGUEL_INICIAL DATE NOT NULL,
+	DATA_ALUGUEL_ENTREGA DATE NOT NULL,
+	VALOR_FINAL FLOAT NOT NULL)
 
       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) Script das instruções relativas a inclusão de dados 
-	Requisito mínimo: (Script dev conter: Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        OBS
-	1) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
-        2) script deve ser incluso no template em um arquivo no formato .SQL
-
+        INSERT INTO MARCA (id_marca, nome) VALUES
+	(1, 'Toyota'),
+	(2, 'Honda'),
+	(3, 'Ford'),
+	(4, 'Chevrolet'),
+	(5, 'Nissan'),
+	(6, 'BMW'),
+	(7, 'Audi'),
+	(8, 'Volkswagen'),
+	(9, 'Mercedes'),
+	(10, 'Hyundai');
+	
+	INSERT INTO CATEGORIA (id_categoria, nome, valor) VALUES
+	(1, 'Sedan', 50000),
+	(2, 'Luxo', 70000),
+	(3, 'SUV', 75000),
+	(4, 'Esportivo', 80000),
+	(5, 'Hatchback', 45000),
+	(6, 'Conversível', 85000),
+	(7, 'Van', 55000),
+	(8, 'Pick-up', 65000),
+	(9, 'Crossover', 68000),
+	(10, 'Coupe', 78000);
+	
+	INSERT INTO MODELO (id_modelo, nome_modelo, descricao, fk_id_marca, fk_id_categoria) VALUES
+	(1, 'Corolla', 'Sedan compacto', 1, 1),
+	(2, 'Civic', 'Sedan médio', 2, 1),
+	(3, 'Mustang', 'Esportivo', 3, 2),
+	(4, 'Cruze', 'Sedan médio', 4, 1),
+	(5, 'Altima', 'Sedan luxo', 5, 2),
+	(6, 'X5', 'SUV grande', 6, 3),
+	(7, 'A4', 'Sedan luxo', 7, 2),
+	(8, 'Golf', 'Hatchback', 8, 1),
+	(9, 'C-Class', 'Sedan luxo', 9, 2),
+	(10, 'Elantra', 'Sedan compacto', 10, 1);
+	
+	INSERT INTO CARRO (id_carro, fk_id_modelo, ano, placa) VALUES
+	(1, 1, 2021, 'ABC-1234'),
+	(2, 2, 2022, 'DEF-5678'),
+	(3, 3, 2021, 'GHI-9012'),
+	(4, 4, 2020, 'JKL-3456'),
+	(5, 5, 2019, 'MNO-7890'),
+	(6, 6, 2022, 'PQR-1234'),
+	(7, 7, 2018, 'STU-5678'),
+	(8, 8, 2019, 'VWX-9012'),
+	(9, 9, 2021, 'YZA-3456'),
+	(10, 10, 2020, 'BCD-7890');
+	
+	INSERT INTO TIPO_PAGAMENTO (id_tipo_pagamento, nome) VALUES
+	(1, 'Cartão de Crédito'),
+	(2, 'Boleto Bancário'),
+	(3, 'Transferência'),
+	(4, 'Cartão de Débito'),
+	(5, 'Dinheiro'),
+	(6, 'Cheque'),
+	(7, 'Pix'),
+	(8, 'Financiamento');
+	
+	INSERT INTO CLIENTE (id_cliente, nome, cpf, telefone, endereco, cnh) VALUES
+	(1, 'João Silva', '11122233344', '(11)1234-5678', 'Rua das Flores, 123, SP', '12345678'),
+	(2, 'Maria Oliveira', '22233344455', '(11)2345-6789', 'Av. do Sol, 456, RJ', '23456789'),
+	(3, 'Pedro Almeida', '33344455566', '(21)3456-7890', 'Praça da Estação, 789, MG', '34567890'),
+	(4, 'Ana Costa', '44455566677', '(21)4567-8901', 'Rua do Lago, 101, BA', '45678901'),
+	(5, 'Luís Santos', '55566677788', '(31)5678-9012', 'Av. da Praia, 212, PE', '56789012'),
+	(6, 'Clara Ferreira', '66677788899', '(31)6789-0123', 'Travessa da Montanha, 323, SC', '67890123'),
+	(7, 'Roberto Souza', '77788899900', '(41)7890-1234', 'Largo da Vila, 434, RS', '78901234'),
+	(8, 'Laura Rocha', '88899900011', '(41)8901-2345', 'Rua dos Pássaros, 545, AM', '89012345'),
+	(9, 'Rafaela Lima', '99900011122', '(51)9012-3456', 'Av. do Campo, 656, RR', '90123456'),
+	(10, 'Bruno Pereira', '00011122233', '(51)0123-4567', 'Praça do Comércio, 767, RO', '01234567');
+	
+	INSERT INTO ALUGUEL (id_aluguel, fk_id_carro, fk_id_cliente, fk_pagamento, data_aluguel_inicial, data_aluguel_entrega, valor_final) VALUES
+	(1, 1, 1, 1, '2022-01-01', '2022-01-10', 500),
+	(2, 2, 2, 2, '2022-02-02', '2022-02-09', 600),
+	(3, 3, 3, 3, '2022-03-05', '2022-03-15', 700),
+	(4, 4, 4, 4, '2022-04-10', '2022-04-20', 550),
+	(5, 5, 5, 5, '2022-05-20', '2022-05-30', 650),
+	(6, 6, 6, 6, '2022-06-01', '2022-06-11', 750),
+	(7, 7, 7, 7, '2022-07-10', '2022-07-20', 850),
+	(8, 8, 8, 8, '2022-08-15', '2022-08-25', 600),
+	(9, 9, 9, 3, '2022-09-05', '2022-09-15', 650),
+	(10, 10, 10, 7, '2022-10-01', '2022-10-11', 700);
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Usa template da disciplina disponibilizado no Colab.<br>
