@@ -449,6 +449,11 @@ FROM ALUGUEL
 LEFT JOIN CARRO ON ALUGUEL.FK_ID_CARRO = CARRO.ID_CARRO
 LEFT JOIN MODELO ON CARRO.FK_ID_MODELO = MODELO.ID_MODELO;
 
+
+PS: Está abaixo da 9.4 no colab
+
+https://colab.research.google.com/drive/1tGOdiKkJKt_CT2k4hUnBoCnN6zyrmJa3#scrollTo=dowpGAS0yDEv
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
