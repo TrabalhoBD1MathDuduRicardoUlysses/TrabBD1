@@ -135,31 +135,15 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 
 ---
 
-**3. Relatório Financeiro**
-- **Objetivo**: Ter uma visão clara da saúde financeira.
-- **Conteúdo**:
-   - Resumo das receitas e despesas.
-   - Detalhamento das fontes de receita (aluguéis, serviços adicionais).
-   - Despesas discriminadas (manutenção, limpeza, serviços parceiros).
+**3. 
+---
+
+**4.
 
 ---
 
-**4. Relatório de Serviços Adicionais**
-- **Objetivo**: Entender a popularidade e rentabilidade dos serviços adicionais.
-- **Conteúdo**:
-   - Panorama dos serviços adicionais mais contratados.
-   - Receitas geradas por cada serviço.
-   - Evolução da popularidade dos serviços ao longo do tempo.
+**5. 
 
----
-
-**5. Relatório de Manutenção e Serviços**
-- **Objetivo**: Monitorar a condição e manutenção da frota.
-- **Conteúdo**:
-   - Detalhes dos veículos que passaram por manutenção.
-   - Frequência de serviços realizados.
-   - Parceiros contratados para os serviços.
-   - Custos associados a cada serviço.
 
 ---
 
