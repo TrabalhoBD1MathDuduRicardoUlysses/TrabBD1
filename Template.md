@@ -138,14 +138,23 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 **3. 
 ---
 
-**4.
+**4.Relatório de Categorias de Veículos Mais Populares**
+- **Objetivo**: Analisar as preferências de pagamento dos clientes e correlacionar com suas escolhas de veículos..
+- **Conteúdo**:
+   - Contagem de aluguéis por categoria de veículo.
+   - Receita média gerada por cada categoria de veículo.
+   - Tempo médio de aluguel por categoria de veículo.
+   - Distribuição percentual de aluguéis por categoria.
 
----
 
-**5. 
+**5. Relatório de Análise de Pagamento e Preferências do Cliente**
+- **Objetivo**: Entender quais categorias de veículos são mais demandadas pelos clientes.
+- **Conteúdo**:
+   - Distribuição dos tipos de pagamento utilizados (cartão de crédito, débito, dinheiro, etc.).
+   - Correlação entre tipo de pagamento e categoria de veículo alugado.
+   - Detalhes dos clientes que preferem cada tipo de pagamento.
+   - Análise do valor médio de aluguel por tipo de pagamento.
 
-
----
 
 ### 5.MODELO CONCEITUAL
 **A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)**
