@@ -116,22 +116,53 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 
 ---
 
-**1. Relatório de Performance de Aluguel**
-- **Objetivo**: Avaliar a eficiência da frota.
-- **Conteúdo**: 
-   - Taxa de ocupação de cada veículo.
-   - Veículos mais e menos alugados.
-   - Receitas geradas por cada veículo.
+**1. Relatório de Inadimplência e Recuperação de Pagamentos**
+
+- **Objetivo**: Monitorar a saúde financeira do negócio em relação aos pagamentos.
+
+- **Conteúdo**:
+   - Taxa de inadimplência.
+   - Estratégias de recuperação de pagamentos adotadas.
+   - Eficácia das estratégias de recuperação.
+
+- **Formato de Apresentação**:
+   - Gráficos de barra para comparar a inadimplência ao longo do tempo.
+
+- **Período de Análise**:
+   - Mensal para avaliar a eficácia contínua das estratégias de recuperação.
+
+- **Tomadores de Decisão Envolvidos**:
+   - Analistas Financeiros, Gerentes de Cobrança, Tomadores de Decisão Estratégica.
+
+- **Potenciais Benefícios**:
+   - Identificação precoce de problemas financeiros.
+   - Ajustes nas estratégias de recuperação para melhorar a liquidez.
+   - Manutenção da saúde financeira da empresa.
 
 ---
 
-**2. Relatório de Clientes Fidelidade**
-- **Objetivo**: Identificar e recompensar os clientes mais leais.
+**2. Relatório de Manutenção Preventiva de Carros**
+
+- **Objetivo**: Garantir a integridade da frota por meio de manutenção preventiva.
+
 - **Conteúdo**:
-   - Detalhes dos clientes que mais alugam.
-   - Frequência de aluguel.
-   - Preferências de veículo.
-   - Gasto total acumulado.
+   - Histórico de manutenção preventiva para cada veículo.
+   - Custos associados à manutenção preventiva em comparação com reparos corretivos.
+   - Tempo médio entre intervenções de manutenção.
+
+- **Formato de Apresentação**:
+   - Gráficos de linha para visualizar a evolução do histórico de manutenção ao longo do tempo.
+
+- **Período de Análise**:
+   - Por veículo e mensal para planejar intervenções de manutenção.
+
+- **Tomadores de Decisão Envolvidos**:
+   - Gerentes de Frota, Engenheiros de Manutenção, Tomadores de Decisão Estratégica.
+
+- **Potenciais Benefícios**:
+   - Redução de custos com reparos corretivos.
+   - Prolongamento da vida útil da frota.
+
 
 ---
 
