@@ -135,29 +135,27 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 
 ---
 
-**3. Relatório de Desempenho de Receitas por Categoria**
+**3. Relatório de Satisfação do Cliente pós-Aluguel**
 
-**Objetivo**: Avaliar a contribuição de cada categoria de carro para as receitas totais.
+- **Objetivo**: Avaliar a satisfação dos clientes após a experiência de aluguel.
 
-**Conteúdo**:
+- **Conteúdo**:
+   - Avaliações e feedbacks dos clientes.
+   - Classificações por aspectos específicos, como atendimento, estado do carro, facilidade do processo de aluguel.
 
-- Receitas totais por categoria.
-- Comparação percentual das receitas de cada categoria em relação ao total.
-- Identificação das categorias mais rentáveis.
-Formato de Apresentação:
+- **Formato de Apresentação**:
+   - Gráficos de barras ou radar para visualizar as classificações em diferentes áreas.
 
-Gráficos de pizza ou barras para visualizar a distribuição percentual das receitas por categoria.
-Período de Análise:
+- **Período de Análise**:
+   - Pode ser contínuo para permitir ajustes rápidos com base no feedback do cliente.
 
-Pode variar conforme necessidade, mas uma análise mensal oferece insights sobre padrões sazonais.
-Tomadores de Decisão Envolvidos:
+- **Tomadores de Decisão Envolvidos**:
+   - Gerentes de Atendimento ao Cliente, Gerentes Operacionais, Tomadores de Decisão Estratégica.
 
-Analistas Financeiros, Gerentes de Marketing, Tomadores de Decisão Estratégica.
-Potenciais Benefícios:
-
-Identificação de categorias de carros mais lucrativas.
-Informações para estratégias de marketing e promoção de categorias específicas.
-Alinhamento da oferta de carros com a demanda do mercado.
+- **Potenciais Benefícios**:
+   - Identificação de áreas de melhoria nos serviços.
+   - Fortalecimento da reputação da empresa com base na satisfação do cliente.
+   - Orientação para treinamento e desenvolvimento de equipe.
 ---
 
 **4.Relatório de Categorias de Veículos Mais Populares**
