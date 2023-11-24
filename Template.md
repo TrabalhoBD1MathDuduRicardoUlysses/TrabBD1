@@ -135,7 +135,29 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 
 ---
 
-**3. 
+**3. Relatório de Desempenho de Receitas por Categoria**
+
+**Objetivo**: Avaliar a contribuição de cada categoria de carro para as receitas totais.
+
+**Conteúdo**:
+
+- Receitas totais por categoria.
+- Comparação percentual das receitas de cada categoria em relação ao total.
+- Identificação das categorias mais rentáveis.
+Formato de Apresentação:
+
+Gráficos de pizza ou barras para visualizar a distribuição percentual das receitas por categoria.
+Período de Análise:
+
+Pode variar conforme necessidade, mas uma análise mensal oferece insights sobre padrões sazonais.
+Tomadores de Decisão Envolvidos:
+
+Analistas Financeiros, Gerentes de Marketing, Tomadores de Decisão Estratégica.
+Potenciais Benefícios:
+
+Identificação de categorias de carros mais lucrativas.
+Informações para estratégias de marketing e promoção de categorias específicas.
+Alinhamento da oferta de carros com a demanda do mercado.
 ---
 
 **4.Relatório de Categorias de Veículos Mais Populares**
