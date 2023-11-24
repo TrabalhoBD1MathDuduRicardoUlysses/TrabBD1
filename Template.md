@@ -187,6 +187,7 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
    - Identificação de áreas de melhoria nos serviços.
    - Fortalecimento da reputação da empresa com base na satisfação do cliente.
    - Orientação para treinamento e desenvolvimento de equipe.
+     
 ---
 
 **4.Relatório de Categorias de Veículos Mais Populares**
