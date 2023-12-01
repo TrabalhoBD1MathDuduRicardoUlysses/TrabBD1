@@ -427,7 +427,8 @@ Entidades:
 	(9, 'Rafaela Lima', '99900011122', '(51)9012-3456', 'Av. do Campo, 656, RR', '90123456'),
 	(10, 'Bruno Pereira', '00011122233', '(51)0123-4567', 'Praça do Comércio, 767, RO', '01234567');
 	
-	INSERT INTO ALUGUEL (id_aluguel, fk_id_carro, fk_id_cliente, fk_pagamento, data_aluguel_inicial, data_aluguel_entrega, valor_final) VALUES
+	INSERT INTO ALUGUEL (id_aluguel, fk_id_carro, fk_id_cliente, fk_pagamento, 
+        data_aluguel_inicial, data_aluguel_entrega, valor_final) VALUES
 	(1, 1, 1, 1, '2022-01-01', '2022-01-10', 500),
 	(2, 2, 2, 2, '2022-02-02', '2022-02-09', 600),
 	(3, 3, 3, 3, '2022-03-05', '2022-03-15', 700),
