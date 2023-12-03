@@ -486,12 +486,12 @@ https://colab.research.google.com/drive/1tGOdiKkJKt_CT2k4hUnBoCnN6zyrmJa3#scroll
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
 #### a) Modelo (pecha kucha)<br>
+O arquivo do TrabalhoBD1PechaKucha.pdf presente no próprio repositório do GIT.
+
 #### b) Tempo de apresentação 6:40 
+https://youtu.be/lKb0BrK3_H8
 
 ># Marco de Entrega 04: Itens 10 e 11 (20 PTS) <br>
-<br>
-<br>
-
 
 
 
