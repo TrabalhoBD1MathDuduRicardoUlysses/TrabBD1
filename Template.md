@@ -116,77 +116,52 @@ Dessa forma, o sistema fornecerá informações abrangentes e detalhadas sobre t
 
 ---
 
-**1. Relatório de Inadimplência e Recuperação de Pagamentos**
+**1. Relatório de Aluguéis por Período de Tempo**
 
-- **Objetivo**: Monitorar a saúde financeira do negócio em relação aos pagamentos.
-
+- **Objetivo**: Analisar a sazonalidade ou tendências nos aluguéis.
 - **Conteúdo**:
-   - Taxa de inadimplência.
-   - Estratégias de recuperação de pagamentos adotadas.
-   - Eficácia das estratégias de recuperação.
-
+   - Quantidade de aluguéis por mês.
 - **Formato de Apresentação**:
-   - Gráficos de barra para comparar a inadimplência ao longo do tempo.
-
+   - Gráficos de linha para visualizar tendências ao longo do tempo.
 - **Período de Análise**:
-   - Mensal para avaliar a eficácia contínua das estratégias de recuperação.
-
+   - Mensal.
 - **Tomadores de Decisão Envolvidos**:
-   - Analistas Financeiros, Gerentes de Cobrança, Tomadores de Decisão Estratégica.
-
+   - Analistas de Tendências, Estrategistas de Marketing.
 - **Potenciais Benefícios**:
-   - Identificação precoce de problemas financeiros.
-   - Ajustes nas estratégias de recuperação para melhorar a liquidez.
-   - Manutenção da saúde financeira da empresa.
+   - Adaptação de estratégias de marketing sazonal.
+   - Otimização de recursos com base nas demandas mensais.
 
 ---
 
-**2. Relatório de Manutenção Preventiva de Carros**
+**2. Relatório de Clientes com Mais Aluguéis**
 
-- **Objetivo**: Garantir a integridade da frota por meio de manutenção preventiva.
-
+- **Objetivo**: Identificar clientes que realizaram o maior número de aluguéis.
 - **Conteúdo**:
-   - Histórico de manutenção preventiva para cada veículo.
-   - Custos associados à manutenção preventiva em comparação com reparos corretivos.
-   - Tempo médio entre intervenções de manutenção.
-
+   - Lista dos clientes com a quantidade de aluguéis realizados.
 - **Formato de Apresentação**:
-   - Gráficos de linha para visualizar a evolução do histórico de manutenção ao longo do tempo.
-
+   - Tabela ou gráfico de barras.
 - **Período de Análise**:
-   - Por veículo e mensal para planejar intervenções de manutenção.
-
+   - Análise pontual ou periódica.
 - **Tomadores de Decisão Envolvidos**:
-   - Gerentes de Frota, Engenheiros de Manutenção, Tomadores de Decisão Estratégica.
-
+   - Gerentes de Relacionamento com o Cliente.
 - **Potenciais Benefícios**:
-   - Redução de custos com reparos corretivos.
-   - Prolongamento da vida útil da frota.
+   - Reconhecimento e recompensa de clientes fiéis.
+   - Estratégias personalizadas de fidelização.
 
 
 ---
 
-**3. Relatório de Satisfação do Cliente pós-Aluguel**
+**3. Relatório de Carros Disponíveis por Ano**
 
-- **Objetivo**: Avaliar a satisfação dos clientes após a experiência de aluguel.
+- **Objetivo**: Avaliar a disponibilidade de carros por ano de fabricação.
+- **Conteúdo**: Quantidade de carros disponíveis por ano.
+- **Formato de Apresentação**: Gráficos de barras para visualizar a distribuição.
+- **Período de Análise**: Periódico.
+- **Tomadores de Decisão Envolvidos**: Gerentes de Estoque.
+- **Potenciais Benefícios**: Gerenciamento eficiente do estoque, estratégias de compra e venda com base nas tendências de mercado.
 
-- **Conteúdo**:
-   - Avaliações e feedbacks dos clientes.
-   - Classificações por aspectos específicos, como atendimento, estado do carro, facilidade do processo de aluguel.
+---
 
-- **Formato de Apresentação**:
-   - Gráficos de barras ou radar para visualizar as classificações em diferentes áreas.
-
-- **Período de Análise**:
-   - Pode ser contínuo para permitir ajustes rápidos com base no feedback do cliente.
-
-- **Tomadores de Decisão Envolvidos**:
-   - Gerentes de Atendimento ao Cliente, Gerentes Operacionais, Tomadores de Decisão Estratégica.
-
-- **Potenciais Benefícios**:
-   - Identificação de áreas de melhoria nos serviços.
-   - Fortalecimento da reputação da empresa com base na satisfação do cliente.
-   - Orientação para treinamento e desenvolvimento de equipe.
      
 ---
 
